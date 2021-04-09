@@ -10,7 +10,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns ./luc
 svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns ./luci-app-smartdns
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-svn co https://github.com/destan19/OpenAppFilter/trunk ./OpenAppFilter
+svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper  ./luci-app-iptvhelper/iptvhelper
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper  ./luci-app-iptvhelper/luci-app-iptvhelper
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
