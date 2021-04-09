@@ -17,6 +17,7 @@ svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-o
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
