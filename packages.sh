@@ -20,7 +20,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-u
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-pptp-server
-
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-syncthing
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
