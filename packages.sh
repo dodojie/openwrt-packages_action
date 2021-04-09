@@ -8,6 +8,8 @@ svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr/luci-app
 rm -rf .svn
 svn co https://github.com/pymumu/luci-app-smartdns//branches/lede ./luci-app-smartdns/luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./luci-app-smartdns/openwrt-smartdns
+rm -rf ./luci-app-smartdns/luci-app-smartdns/.svn
+rm -rf ./luci-app-smartdns/openwrt-smartdns/.svn
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
