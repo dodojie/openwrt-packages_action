@@ -1,7 +1,8 @@
 #!/bin/bash
 
-git clone https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon/tree/18.06 ./luci-theme-argon
 git clone https://github.com/tty228/luci-app-serverchan
+git clone https://github.com/dodojie/test
 # svn co https://github.com/fw876/helloworld/trunk ./
 # svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 
