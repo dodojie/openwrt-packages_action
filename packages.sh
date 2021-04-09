@@ -5,7 +5,8 @@ git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-lean-ssr
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./luci-app-vssr/lua-maxminddb
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr/luci-app-vssr
-rm -rf .svn
+rm -rf ./luci-app-vssr/lua-maxminddb/.svn
+rm -rf ./luci-app-vssr/luci-app-vssr/.svn
 svn co https://github.com/pymumu/luci-app-smartdns//branches/lede ./luci-app-smartdns/luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./luci-app-smartdns/openwrt-smartdns
 rm -rf ./luci-app-smartdns/luci-app-smartdns/.svn
