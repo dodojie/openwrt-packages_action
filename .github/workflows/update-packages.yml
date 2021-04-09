@@ -24,7 +24,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [packages,packages-19.07]
+#         target: [packages,packages-19.07]
+        target: [packages]
         
     steps:
     - name: Checkout
@@ -37,14 +38,14 @@ jobs:
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install git subversion git-core wget
         sudo timedatectl set-timezone "$TZ"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "3466664+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         
     - name: Clone packages
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x ${{matrix.target}}.sh
-        git clone -b ${{matrix.target}} https://github.com/liuran001/openwrt-packages.git ${{matrix.target}}
+        git clone -b ${{matrix.target}} https://github.com/dodojie/openwrt-packages.git ${{matrix.target}}
         cd ${{matrix.target}}
         rm -Rf *
         git rm --cache *
@@ -59,7 +60,7 @@ jobs:
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://${{ secrets.TOKEN }}@github.com/liuran001/openwrt-packages.git" HEAD:${{matrix.target}}
+        git push --quiet "https://${{ secrets.TOKEN }}@github.com/dodojie/openwrt-packages.git" HEAD:${{matrix.target}}
  
 
  
