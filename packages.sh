@@ -2,7 +2,7 @@
 
 git clone https://github.com/jerrykuku/luci-theme-argon/tree/18.06
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/dodojie/test/trunk
+svn co https://github.com/dodojie/test/trunk ./test
 # svn co https://github.com/fw876/helloworld/trunk ./
 # svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 
