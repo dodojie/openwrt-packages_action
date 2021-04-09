@@ -26,6 +26,7 @@ svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godpro
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-pptp-server
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-syncthing
+svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
