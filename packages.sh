@@ -15,6 +15,8 @@ svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper  ./luci-app-iptvhelper/iptvhelper
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper  ./luci-app-iptvhelper/luci-app-iptvhelper
+rm -rf ./luci-app-iptvhelper/iptvhelper/.svn
+rm -rf ./luci-app-iptvhelper/luci-app-iptvhelper/.svn
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
