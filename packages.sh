@@ -1,15 +1,12 @@
 #!/bin/bash
 
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
-git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/dodojie/test/trunk ./test
-# svn co https://github.com/fw876/helloworld/trunk ./
-# svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
+git clone https://github.com/tty228/luci-app-serverchan 
+svn co https://github.com/fw876/helloworld/trunk ./luci-app-lean-ssr
+svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 
-
-
-# rm -rf .svn
-# svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
+rm -rf .svn
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 # svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
 # svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new
 # svn co https://github.com/kenzok8/luci-theme-ifit/trunk/luci-theme-ifit
@@ -36,9 +33,9 @@ svn co https://github.com/dodojie/test/trunk ./test
 # svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 
 
-# svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
-# svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
-# https://github.com/jerrykuku/luci-app-argon-config
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+https://github.com/jerrykuku/luci-app-argon-config
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
