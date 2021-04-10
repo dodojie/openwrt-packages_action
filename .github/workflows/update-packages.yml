@@ -24,8 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-#         target: [packages,packages-19.07]
-        target: [packages]
+        target: [openwrt_18.06,openwrt_21.02]
         
     steps:
     - name: Checkout
