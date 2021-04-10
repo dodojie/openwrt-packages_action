@@ -19,11 +19,8 @@ rm -rf ./luci-app-iptvhelper/iptvhelper/.svn
 rm -rf ./luci-app-iptvhelper/luci-app-iptvhelper/.svn
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
-svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-pptp-server
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-syncthing
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 rm -rf ./*/.git
