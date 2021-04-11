@@ -2,14 +2,26 @@
 #!/bin/bash
 
 svn co https://github.com/honwen/luci-app-aliddns/trunk ./luci-app-aliddns
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
 svn co https://github.com/jerrykuku/luci-theme-argon/trunk ./luci-theme-argon
+svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
+svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-theme-argon/luci-app-argon-config
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
 svn co https://github.com/KFERMercer/luci-app-baidupcs-web/trunk ./luci-app-baidupcs-web/luci-app-baidupcs-web
 svn co https://github.com/KFERMercer/openwrt-baidupcs-web/trunk ./luci-app-baidupcs-web/openwrt-baidupcs-web
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus  ./luci-app-adbyby-plus/luci-app-adbyby-plus
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby  ./luci-app-adbyby-plus/adbyby
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload
-svn co https://github.com/sensec/ddns-scripts_aliyun ./ddns-scripts_aliyun
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app--vpnd
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qBittorrent ./luci-app-qbittorrent/qBittorrent
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-qbittorrent ./luci-app-qbittorrent/luci-app-qbittorrent
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-rclone ./luci-app-rclone/luci-app-rclone
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone-ng ./luci-app-rclone/rclone-ng
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone-webui-react ./luci-app-rclone/rclone-webui-react
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone ./luci-app-rclone/rclone
+svn co https://github.com/sensec/ddns-scripts_aliyun/trunk ./ddns-scripts_aliyun
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-softethervpn5 ./luci-app-softethervpn5/luci-app-softethervpn5
+svn co https://github.com/garypang13/openwrt-packages/trunk/softethervpn5 ./luci-app-softethervpn5/softethervpn5
 
 
 
