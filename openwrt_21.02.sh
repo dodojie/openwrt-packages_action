@@ -33,10 +33,10 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby  ./luci-ap
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app--vpnd
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qBittorrent ./luci-app-qbittorrent/qBittorrent
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qt5 ./luci-app-qbittorrent/qt5
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rblibtorrent ./luci-app-qbittorrent/rblibtorrent
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-qbittorrent ./luci-app-qbittorrent/luci-app-qbittorrent
+# svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qBittorrent ./luci-app-qbittorrent/qBittorrent
+# svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qt5 ./luci-app-qbittorrent/qt5
+# svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rblibtorrent ./luci-app-qbittorrent/rblibtorrent
+# svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-qbittorrent ./luci-app-qbittorrent/luci-app-qbittorrent
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-rclone ./luci-app-rclone/luci-app-rclone
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone-ng ./luci-app-rclone/rclone-ng
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone-webui-react ./luci-app-rclone/rclone-webui-react
@@ -50,10 +50,10 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 rm -rf ./luci-app-adbyby-plus/luci-app-adbyby-plus/.svn
 rm -rf ./luci-app-adbyby-plus/adbyby/.svn
-rm -rf ./luci-app-qbittorrent/qBittorrent/.svn
-rm -rf ./luci-app-qbittorrent/qt5/.svn
-rm -rf ./luci-app-qbittorrent/rblibtorrent/.svn
-rm -rf ./luci-app-qbittorrent/luci-app-qbittorrent/.svn
+# rm -rf ./luci-app-qbittorrent/qBittorrent/.svn
+# rm -rf ./luci-app-qbittorrent/qt5/.svn
+# rm -rf ./luci-app-qbittorrent/rblibtorrent/.svn
+# rm -rf ./luci-app-qbittorrent/luci-app-qbittorrent/.svn
 rm -rf ./luci-app-rclone/luci-app-rclone/.svn
 rm -rf ./luci-app-rclone/rclone-ng/.svn
 rm -rf ./luci-app-rclone/rclone-webui-react/.svn
