@@ -42,9 +42,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/verysync ./luci-a
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/vlmcsd ./luci-app-vlmcsd/vlmcsd
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-webadmin
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 rm -rf ./luci-app-adbyby-plus/luci-app-adbyby-plus/.svn
 rm -rf ./luci-app-adbyby-plus/adbyby/.svn
