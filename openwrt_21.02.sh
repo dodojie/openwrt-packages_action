@@ -18,6 +18,8 @@ rm -rf ./luci-app-baidupcs-web/luci-app-baidupcs-web/.svn
 rm -rf ./luci-app-baidupcs-web/openwrt-baidupcs-web/.svn
 
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/parted  ./luci-app-diskman/parted
+rm -rf ./luci-app-diskman/parted/.svn
 svn co https://github.com/honwen/luci-app-aliddns/trunk ./luci-app-aliddns
 svn co https://github.com/sensec/ddns-scripts_aliyun/trunk ./ddns-scripts_aliyun
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-softethervpn5 ./luci-app-softethervpn5/luci-app-softethervpn5
@@ -32,6 +34,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mou
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app--vpnd
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qBittorrent ./luci-app-qbittorrent/qBittorrent
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/qt5 ./luci-app-qbittorrent/qt5
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rblibtorrent ./luci-app-qbittorrent/rblibtorrent
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-qbittorrent ./luci-app-qbittorrent/luci-app-qbittorrent
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-rclone ./luci-app-rclone/luci-app-rclone
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/rclone-ng ./luci-app-rclone/rclone-ng
@@ -47,6 +51,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 rm -rf ./luci-app-adbyby-plus/luci-app-adbyby-plus/.svn
 rm -rf ./luci-app-adbyby-plus/adbyby/.svn
 rm -rf ./luci-app-qbittorrent/qBittorrent/.svn
+rm -rf ./luci-app-qbittorrent/qt5/.svn
+rm -rf ./luci-app-qbittorrent/rblibtorrent/.svn
 rm -rf ./luci-app-qbittorrent/luci-app-qbittorrent/.svn
 rm -rf ./luci-app-rclone/luci-app-rclone/.svn
 rm -rf ./luci-app-rclone/rclone-ng/.svn
