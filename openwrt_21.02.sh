@@ -46,7 +46,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
-rm -rf ./luci-app-adbyby-plus/luci-app-adbyby-plus5/.svn
+rm -rf ./luci-app-adbyby-plus/luci-app-adbyby-plus/.svn
 rm -rf ./luci-app-adbyby-plus/adbyby/.svn
 rm -rf ./luci-app-qbittorrent/qBittorrent/.svn
 rm -rf ./luci-app-qbittorrent/luci-app-qbittorrent/.svn
