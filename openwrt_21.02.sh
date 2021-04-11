@@ -1,9 +1,16 @@
 
 #!/bin/bash
 
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
+svn co https://github.com/honwen/luci-app-aliddns/trunk ./luci-app-aliddns
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
 svn co https://github.com/jerrykuku/luci-theme-argon/trunk ./luci-theme-argon
+svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
+svn co https://github.com/KFERMercer/luci-app-baidupcs-web/trunk ./luci-app-baidupcs-web/luci-app-baidupcs-web
+svn co https://github.com/KFERMercer/openwrt-baidupcs-web/trunk ./luci-app-baidupcs-web/openwrt-baidupcs-web
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-flowoffload
+svn co https://github.com/sensec/ddns-scripts_aliyun ./ddns-scripts_aliyun
+
 
 
 # git clone https://github.com/tty228/luci-app-serverchan 
