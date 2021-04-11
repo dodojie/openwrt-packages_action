@@ -46,7 +46,8 @@ jobs:
         chmod +x ${{matrix.target}}.sh
         git clone -b ${{matrix.target}} https://github.com/dodojie/openwrt-packages.git ${{matrix.target}}
         cd ${{matrix.target}}
-
+        rm -Rf *
+        git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
 
     - name: Upload
