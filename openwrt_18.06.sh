@@ -24,6 +24,7 @@ svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
+svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
