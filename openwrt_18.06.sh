@@ -15,16 +15,15 @@ rm -rf ./luci-app-smartdns/luci-app-smartdns/.svn
 rm -rf ./luci-app-smartdns/openwrt-smartdns/.svn
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
-svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper  ./luci-app-iptvhelper/iptvhelper
-svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper  ./luci-app-iptvhelper/luci-app-iptvhelper
-rm -rf ./luci-app-iptvhelper/iptvhelper/.svn
-rm -rf ./luci-app-iptvhelper/luci-app-iptvhelper/.svn
+svn co https://github.com/riverscn/openwrt-iptvhelper/trunk  ./luci-app-iptvhelper
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
+svn co https://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
+svn co https://github.com/lhc/caipirinha-os/trunk/luci-app-speedtest
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
