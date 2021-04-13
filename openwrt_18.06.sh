@@ -27,7 +27,6 @@ svn co https://github.com/NateLol/luci-app-beardropper/trunk ./luci-app-beardrop
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestriction
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/sirpdboy/netspeedtest/trunk ./luci-app-NetSpeedTest
-svn co https://github.com/rosywrt/nft-qos/trunk ./luci-app-nft-qos
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
