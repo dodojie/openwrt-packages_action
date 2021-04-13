@@ -22,8 +22,12 @@ svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godpro
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
-svn co https://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
-svn co https://github.com/lhc/caipirinha-os/trunk/luci-app-speedtest
+svn co https://github.com/Hyy2001X/luci-app-autoupdate/trunk ./luci-app-autoupdate
+svn co https://github.com/NateLol/luci-app-beardropper/trunk ./luci-app-beardropper
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestriction
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
+svn co https://github.com/sirpdboy/netspeedtest/trunk ./luci-app-NetSpeedTest
+svn co https://github.com/rosywrt/nft-qos/trunk ./luci-app-nft-qos
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
