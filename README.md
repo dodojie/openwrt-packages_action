@@ -10,7 +10,7 @@
 
 #### 4、请求加入xxx软件包或者问题反馈请使用issue
 
-#### 5、本仓库内的luci-theme-argon主题插件与lean源码自带的argon主题有冲突，如果您要使用该插件，请先删除lean源码下的argon主题。（个人觉得本仓库的argon主题要好看的多）
+#### 5、本仓库内的luci-theme-argon主题插件与lean源码自带的argon主题有冲突，如果您要使用该插件，请先删除lean源码自带的argon主题。（个人觉得本仓库的argon主题要好看的多）
 
 
 
