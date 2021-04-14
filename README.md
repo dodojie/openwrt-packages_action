@@ -16,18 +16,20 @@
 
 ## 使用方式有两种：（以下操作均默认您已拉取lean的源码）
 
-## 一、
+## 方法一、
 cd进package目录，然后执行
 ```bash
 git clone https://github.com/dodojie/openwrt-packages
 ```
  
-## 二、
+## 方法二、
 添加下面代码到feeds.conf.default文件（在lean源码根目录里）
 ```bash
 src-git dodojie_packages https://github.com/dodojie/openwrt-packages
 ```
-然后再执行
+
+
+通过以上两种方法（二选一）添加了本仓库源码之后再执行
 ```bash
 ./scripts/feeds update -a
 ```
