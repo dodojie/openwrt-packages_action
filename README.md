@@ -29,7 +29,7 @@ src-git dodojie_packages https://github.com/dodojie/openwrt-packages
 ```
 
 
-通过以上两种方法（二选一）添加了本仓库源码之后再执行
+## 通过以上两种方法（二选一）添加了本仓库源码之后再执行
 ```bash
 ./scripts/feeds update -a
 ```
