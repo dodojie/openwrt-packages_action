@@ -32,8 +32,9 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
 svn co https://github.com/sirpdboy/netspeedtest/trunk ./luci-app-netspeedtest
 mv ./luci-app-netspeedtest/luci-app-NetSpeedTest/luasrc/controller/NetSpeedTest.lua ./luci-app-netspeedtest/luci-app-NetSpeedTest/luasrc/controller/netspeedtest.lua
 svn co https://github.com/sirpdboy/luci-app-autotimeset/trunk ./luci-app-autotimeset
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit ./luci-app-cpulimit/luci-app-cpulimit
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit ./luci-app-cpulimit/cpulimit
+rm -rf ./luci-app-cpulimit/luci-app-cpulimit/.svn
 rm -rf ./luci-app-cpulimit/cpulimit/.svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
