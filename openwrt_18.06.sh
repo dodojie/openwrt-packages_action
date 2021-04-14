@@ -29,7 +29,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-timecontrol
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
-svn co https://github.com/sirpdboy/netspeedtest/trunk ./luci-app-NetSpeedTest
+svn co https://github.com/sirpdboy/netspeedtest/trunk ./luci-app-netspeedtest
 svn co https://github.com/sirpdboy/luci-app-autotimeset/trunk ./luci-app-autotimeset
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit
 rm -rf ./*/.git
