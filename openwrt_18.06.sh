@@ -16,8 +16,6 @@ rm -rf ./luci-app-smartdns/openwrt-smartdns/.svn
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk  ./luci-app-iptvhelper
-rm -rf ./luci-app-iptvhelper/luci-app-iptvhelper/po/templates
-mv ./luci-app-iptvhelper/luci-app-iptvhelper/po/zh_Hans ./luci-app-iptvhelper/luci-app-iptvhelper/po/zh_cn
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
@@ -27,8 +25,6 @@ svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
 mv ./luci-app-eqos/po/zh_Hans ./luci-app-eqos/po/zh_cn
 svn co https://github.com/Hyy2001X/luci-app-autoupdate/trunk ./luci-app-autoupdate
 svn co https://github.com/NateLol/luci-app-beardropper/trunk ./luci-app-beardropper
-rm -rf ./luci-app-beardropper/po/zh_Hant
-mv ./luci-app-beardropper/po/zh_Hans ./luci-app-beardropper/po/zh_cn
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestriction
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
