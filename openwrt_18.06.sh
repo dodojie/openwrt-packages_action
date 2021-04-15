@@ -24,6 +24,7 @@ svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godpro
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
+mv ./luci-app-eqos/po/zh_Hans ./luci-app-eqos/po/zh_cn
 svn co https://github.com/Hyy2001X/luci-app-autoupdate/trunk ./luci-app-autoupdate
 svn co https://github.com/NateLol/luci-app-beardropper/trunk ./luci-app-beardropper
 rm -rf ./luci-app-beardropper/po/zh_Hant
