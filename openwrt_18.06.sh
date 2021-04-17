@@ -35,7 +35,6 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-cpulimit ./lu
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/cpulimit ./luci-app-cpulimit/cpulimit
 rm -rf ./luci-app-cpulimit/luci-app-cpulimit/.svn
 rm -rf ./luci-app-cpulimit/cpulimit/.svn
-svn co https://github.com/ntlf9t/luci-app-bbr-mod/trunk ./luci-app-bbr-mod
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
