@@ -20,7 +20,6 @@ svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-o
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/project-lede/luci-app-godproxy/trunk ./luci-app-godproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
-svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/Hyy2001X/luci-app-autoupdate/trunk ./luci-app-autoupdate
 svn co https://github.com/NateLol/luci-app-beardropper/trunk ./luci-app-beardropper
