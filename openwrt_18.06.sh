@@ -4,7 +4,6 @@ svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-theme-argon/luci-app-argon-config
 rm -rf ./luci-theme-argon/luci-app-argon-config/.svn
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-lean-ssr
-svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk  ./luci-app-iptvhelper
 svn co https://github.com/riverscn/luci-app-omcproxy/branches/18.06 ./luci-app-omcproxy
