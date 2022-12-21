@@ -11,7 +11,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-timecontrol
-svn co https://github.com/Lienol/openwrt/trunk/package/kernel/shortcut-fe ./shortcut-fe
+git clone --depth 1 https://github.com/Lienol/openwrt/tree/21.02/package/kernel/shortcut-fe ./shortcut-fe
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall ./openwrt-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall ./luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 ./luci-app-passwall2
