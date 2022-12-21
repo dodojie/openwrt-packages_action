@@ -36,6 +36,3 @@ rm -rf ./*/.svn
 rm -rf ./*/*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
-
-
-branches
