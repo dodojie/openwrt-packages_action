@@ -29,6 +29,8 @@ svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd .
 svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc
 
 rm -rf ./*/.git
+rm -rf ./*/.github
+rm -rf ./*/*/.github
 rm -rf ./*/.svn 
 rm -rf ./*/*/.svn 
 rm -f .gitattributes .gitignore
