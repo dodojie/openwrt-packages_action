@@ -12,8 +12,8 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-timecontrol
-svn co https://github.com/xiaorouji/openwrt-passwall/branches/packages ./openwrt-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci 
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall ./luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 ./luci-app-passwall2
 svn co https://github.com/sirpdboy/luci-app-autotimeset/trunk ./luci-app-autotimeset
 svn co https://github.com/sirpdboy/luci-app-ddns-go/trunk ./luci-app-ddns-go
@@ -30,6 +30,7 @@ svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
+rm -rf ./*/*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
 
