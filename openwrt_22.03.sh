@@ -11,7 +11,6 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-timecontrol
-svn co https://github.com/Lienol/openwrt/trunk/package/kernel/shortcut-fe ./shortcut-fe
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall ./openwrt-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall ./luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 ./luci-app-passwall2
@@ -24,7 +23,6 @@ svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby ./lu
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/vlmcsd ./luci-app-vlmcsd/vlmcsd
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus ./luci-app-adbyby-plus/luci-app-adbyby-plus
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
-svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-turboacc ./luci-app-turboacc
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
 
 
