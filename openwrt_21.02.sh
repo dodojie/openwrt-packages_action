@@ -17,7 +17,6 @@ svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 .
 svn co https://github.com/sirpdboy/luci-app-autotimeset/trunk ./luci-app-autotimeset
 svn co https://github.com/sirpdboy/luci-app-ddns-go/trunk ./luci-app-ddns-go
 svn co https://github.com/sirpdboy/luci-app-advanced/trunk ./luci-app-advanced
-svn co https://github.com/sirpdboy/netspeedtest/trunk ./netspeedtest
 svn co https://github.com/sirpdboy/luci-app-lucky/trunk ./luci-app-lucky
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby ./luci-app-adbyby-plus/adbyby
