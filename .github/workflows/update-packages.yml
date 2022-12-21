@@ -16,9 +16,9 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  build:
-    runs-on: ubuntu-18.04
-    if: github.event.repository.owner.id == github.event.sender.id
+  merge:
+    runs-on: Ubuntu-22.04
+    if: github.event.repository.owner.id == github.event.sender.id || ! github.event.sender.id
 
     name: Update ${{matrix.target}}
     strategy:
@@ -28,7 +28,9 @@ jobs:
         
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
     - name: Initialization environment
       env:
