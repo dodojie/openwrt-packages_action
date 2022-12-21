@@ -26,8 +26,7 @@ svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-ad
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-turboacc ./luci-app-turboacc
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
-git clone --depth 1 https://github.com/Lienol/openwrt/tree/21.02/package/kernel/shortcut-fe ./shortcut-fe
-
+git clone --depth 1 -b 21.02 https://github.com/Lienol/openwrt/package/kernel/shortcut-fe ./shortcut-fe
 rm -rf ./*/.git
 rm -rf ./*/.github
 rm -rf ./*/*/.github
