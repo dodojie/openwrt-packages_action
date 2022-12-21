@@ -2,7 +2,6 @@
 
 svn co https://github.com/jerrykuku/luci-theme-argon/trunk ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
-rm -rf ./luci-theme-argon/luci-app-argon-config/.svn
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/ilxp/luci-app-ikoolproxy/trunk ./luci-app-ikoolproxy
@@ -12,7 +11,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-timecontrol
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/branches/packages/* ./openwrt-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall ./luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 ./luci-app-passwall2
 svn co https://github.com/sirpdboy/luci-app-autotimeset/trunk ./luci-app-autotimeset
