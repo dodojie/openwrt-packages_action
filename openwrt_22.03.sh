@@ -23,7 +23,6 @@ svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby ./lu
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/vlmcsd ./luci-app-vlmcsd/vlmcsd
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus ./luci-app-adbyby-plus/luci-app-adbyby-plus
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
 
 
 
