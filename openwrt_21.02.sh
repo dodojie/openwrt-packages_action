@@ -21,12 +21,12 @@ svn co https://github.com/sirpdboy/luci-app-advanced/trunk ./luci-app-advanced
 svn co https://github.com/sirpdboy/netspeedtest/trunk ./netspeedtest
 svn co https://github.com/sirpdboy/luci-app-lucky/trunk ./luci-app-lucky
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby ./luci-app-adbyby-plus/adbyby
-svn co https://github.com/coolsnowwolf/packages/trunk/net/vlmcsd ./luci-app-vlmcsd/vlmcsd
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby ./luci-app-adbyby-plus/adbyby
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/vlmcsd ./luci-app-vlmcsd/vlmcsd
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus ./luci-app-adbyby-plus/luci-app-adbyby-plus
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-turboacc ./luci-app-turboacc
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus ./luci-app-adbyby-plus/luci-app-adbyby-plus
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
-svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc
 
 rm -rf ./*/.git
 rm -rf ./*/.github
