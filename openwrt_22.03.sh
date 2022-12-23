@@ -24,7 +24,7 @@ svn co https://github.com/Lienol/openwrt-package/branches/other/lean/vlmcsd ./lu
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus ./luci-app-adbyby-plus/luci-app-adbyby-plus
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-vlmcsd ./luci-app-vlmcsd/luci-app-vlmcsd
 
-ln -s ./luci-app-adbyby-plus/luci-app-adbyby-plus/po/zh-cn ./luci-app-adbyby-plus/luci-app-adbyby-plus/po/zh_Hans
+ln -s zh-cn ./luci-app-adbyby-plus/luci-app-adbyby-plus/po/zh_Hans
 
 
 
