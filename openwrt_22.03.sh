@@ -35,7 +35,7 @@ ln -s zh-cn ./luci-app-lucky/luci-app-lucky/po/zh_Hans
 ln -s zh-cn ./luci-app-tcpdump/po/zh_Hans
 ln -s zh-cn ./luci-app-timecontrol/po/zh_Hans
 sed -i '1i\msgid ""\nmsgstr "Content-Type: text/plain; charset=UTF-8"\n' ./luci-app-timecontrol/po/zh-cn/timecontrol.po
-sed -e '8s/"LUCI_TITLE:=LuCI support for Time Control"/"PKG_NAME:=luci-app-timecontrol"/' ./luci-app-timecontrol/Makefile
+sed -e '8s/LUCI_TITLE:=LuCI support for Time Control/PKG_NAME:=luci-app-timecontrol/' ./luci-app-timecontrol/Makefile
 ln -s zh-cn ./luci-app-vlmcsd/luci-app-vlmcsd/po/zh_Hans
 
 rm -rf ./*/.git
