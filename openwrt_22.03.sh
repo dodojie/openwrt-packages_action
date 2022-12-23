@@ -34,9 +34,16 @@ rm -rf ./luci-app-lucky/luci-app-lucky/po/zh_Hans
 ln -s zh-cn ./luci-app-lucky/luci-app-lucky/po/zh_Hans
 ln -s zh-cn ./luci-app-tcpdump/po/zh_Hans
 ln -s zh-cn ./luci-app-timecontrol/po/zh_Hans
+ln -s zh-cn ./luci-app-vlmcsd/luci-app-vlmcsd/po/zh_Hans
 # sed -i '1i\msgid ""\nmsgstr "Content-Type: text/plain; charset=UTF-8"\n' ./luci-app-timecontrol/po/zh-cn/timecontrol.po
 sed -i '8s/LUCI_TITLE:=LuCI support for Time Control/PKG_NAME:=luci-app-timecontrol/' ./luci-app-timecontrol/Makefile
-ln -s zh-cn ./luci-app-vlmcsd/luci-app-vlmcsd/po/zh_Hans
+sed -i '8s/LUCI_TITLE:=LuCI support for Adbyby/PKG_NAME:=luci-app-adbyby-plus/' ./luci-app-adbyby-plus/luci-app-adbyby-plus/Makefile
+sed -i '9s/LUCI_TITLE:=LuCI support for KMS/PKG_NAME:=luci-app-vlmcsd/' ./luci-app-vlmcsd/luci-app-vlmcsd/Makefile
+sed -i '10s/LUCI_TITLE:=LuCI support for tcpdump/PKG_NAME:=luci-app-tcpdump/' ./luci-app-tcpdump/Makefile
+sed -i '13d' ./luci-app-tcpdump/Makefile
+sed -i '8s/LUCI_TITLE:=LuCI support for Webrestriction From Koolshare/PKG_NAME:=luci-app-control-webrestriction/' ./luci-app-control-webrestriction/Makefile
+sed -i '8s/LUCI_TITLE:=LuCI support for Timewol From Koolshare/PKG_NAME:=luci-app-control-timewol/' ./luci-app-control-timewol/Makefile
+sed -i '8s/LUCI_TITLE:=LuCI support for Weburl From Koolshare/PKG_NAME:=luci-app-control-weburl/' ./luci-app-control-weburl/Makefile
 
 rm -rf ./*/.git
 rm -rf ./*/.github
